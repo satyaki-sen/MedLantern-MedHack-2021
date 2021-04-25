@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/homeFragment"
+    tools:context=".HomeFragment">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="@color/darkwhite">
+
+       <LinearLayout
+           android:id="@+id/linearLayout_Home"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:background="@color/baseBlack"
+           android:orientation="vertical"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent">
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="120dp"
+           android:background="@drawable/curved_background"
+           android:orientation="vertical"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/linearLayout_Home">
+
+
+           <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/textInput_Cond"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="40dp"
+               android:layout_marginTop="70dp"
+               android:layout_marginRight="40dp"
+               app:boxBackgroundColor="@color/darkwhite"
+               app:boxStrokeColor="@color/black"
+               app:hintTextColor="@color/black">
+
+
+               <AutoCompleteTextView
+                   android:id="@+id/autoEdit_Cond"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@null"
+                   android:hint="Condition"
+                   android:textColor="@color/black"
+                   android:textSize="18sp" />
+
+           </com.google.android.material.textfield.TextInputLayout>
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/textInput_Address"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="40dp"
+           android:layout_marginTop="40dp"
+           android:layout_marginRight="40dp"
+           app:boxBackgroundColor="@color/darkwhite"
+           app:hintTextColor="@color/black"
+           app:boxStrokeColor="@color/black">
+
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/textEdit_Address"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Address (Not Compulsory)"
+               android:textColor="@color/black"
+               android:textSize="18sp" />
+
+       </com.google.android.material.textfield.TextInputLayout>
+
+
+           <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/textInput_Number"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="40dp"
+               android:layout_marginTop="40dp"
+               android:layout_marginRight="40dp"
+               app:boxBackgroundColor="@color/darkwhite"
+               app:hintTextColor="@color/black"
+               app:boxStrokeColor="@color/black">
+
+
+               <AutoCompleteTextView
+                   android:id="@+id/autoEdit_Number"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Number of Ambulance"
+                   android:background="@null"
+                   android:textColor="@color/black"
+                   android:textSize="18sp"/>
+
+           </com.google.android.material.textfield.TextInputLayout>
+
+
+           <Button
+               android:id="@+id/btnSendAmb"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="30dp"
+               android:layout_marginTop="95dp"
+               android:layout_marginRight="30dp"
+               android:background="@color/baseBlack"
+               android:text="Send"
+               android:textColor="@color/whiteTextColor"
+               android:textSize="25sp" />
+
+       </LinearLayout>
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

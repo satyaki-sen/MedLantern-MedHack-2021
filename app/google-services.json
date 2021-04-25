@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "154615057095",
+    "project_id": "medtech-95f18",
+    "storage_bucket": "medtech-95f18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154615057095:android:cd3abd8b65d4f32b1fcce2",
+        "android_client_info": {
+          "package_name": "com.satyaki.medtech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154615057095-ppruvdq7a2ovvn35k3de1p5le3sqvoqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyYI4cgYuBcM1IURHgpxTLkmoE3-bpzlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154615057095-ppruvdq7a2ovvn35k3de1p5le3sqvoqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

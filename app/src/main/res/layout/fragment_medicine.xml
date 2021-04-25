@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/medicineFragment"
+    tools:context=".MedicineFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="35dp"
+          android:layout_marginRight="20dp"
+          android:orientation="horizontal">
+
+
+         <com.google.android.material.textfield.TextInputLayout
+             android:id="@+id/textInput_Day"
+             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dp"
+             android:layout_marginRight="10dp"
+             android:layout_weight="1"
+             app:boxBackgroundColor="@color/darkwhite"
+             app:boxStrokeColor="@color/black"
+             app:hintTextColor="@color/black">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/autoEdit_Day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Day"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+         </com.google.android.material.textfield.TextInputLayout>
+
+
+         <com.google.android.material.textfield.TextInputLayout
+             android:id="@+id/textInput_Month"
+             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dp"
+             android:layout_weight="1"
+             app:boxBackgroundColor="@color/darkwhite"
+             app:boxStrokeColor="@color/black"
+             app:hintTextColor="@color/black">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/autoEdit_Month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Month"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+         </com.google.android.material.textfield.TextInputLayout>
+
+      </LinearLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/textInput_Morning"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="35dp"
+          android:layout_marginTop="35dp"
+          android:layout_marginRight="35dp"
+          app:boxBackgroundColor="@color/darkwhite"
+          app:hintTextColor="@color/black"
+          app:boxStrokeColor="@color/black">
+
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:id="@+id/textEdit_Morning"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="Morning Medicines"
+             android:textColor="@color/black"
+             android:textSize="18sp" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/textInput_Afternoon"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="35dp"
+          android:layout_marginTop="35dp"
+          android:layout_marginRight="35dp"
+          app:boxBackgroundColor="@color/darkwhite"
+          app:hintTextColor="@color/black"
+          app:boxStrokeColor="@color/black">
+
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:id="@+id/textEdit_Afternoon"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="Afternoon Medicines"
+             android:textColor="@color/black"
+             android:textSize="18sp" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/textInput_Evening"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="35dp"
+          android:layout_marginTop="35dp"
+          android:layout_marginRight="35dp"
+          app:boxBackgroundColor="@color/darkwhite"
+          app:hintTextColor="@color/black"
+          app:boxStrokeColor="@color/black">
+
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:id="@+id/textEdit_Evening"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="Evening Medicines"
+             android:textColor="@color/black"
+             android:textSize="18sp" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/textInput_Night"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="35dp"
+          android:layout_marginTop="35dp"
+          android:layout_marginRight="35dp"
+          app:boxBackgroundColor="@color/darkwhite"
+          app:hintTextColor="@color/black"
+          app:boxStrokeColor="@color/black">
+
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:id="@+id/textEdit_Night"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="Night Medicines"
+             android:textColor="@color/black"
+             android:textSize="18sp" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+
+      <Button
+          android:id="@+id/btnSaveRecord"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="30dp"
+          android:layout_marginTop="85dp"
+          android:layout_marginRight="30dp"
+          android:background="@color/baseBlack"
+          android:text="Save"
+          android:textColor="@color/whiteTextColor"
+          android:textSize="25sp" />
+
+
+   </LinearLayout>
+
+</FrameLayout>
