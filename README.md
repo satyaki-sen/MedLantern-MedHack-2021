@@ -1,7 +1,7 @@
 # MedLantern-MedHack-2021
 Project for MedHack-2021
 It is a rapid action platform to cope with the need of an ambulance during an emergency or in any other situation. 
-This platform makes use of an app which helps the user to communicate to the nearest hospital.
+This platform makes use of an app which helps the user to communicate to the nearest hospital.This app also helps in diagnosis of patients which makes it much more easier for doctors to operate them.
 
 # Screenshots:
 ![ss2](https://user-images.githubusercontent.com/78899226/115991564-bdc81680-a5e6-11eb-9145-9b0fa4ca0d6c.jpg)
